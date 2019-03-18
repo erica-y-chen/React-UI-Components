@@ -7,8 +7,10 @@ import Content from './CardContent';
 function Card() {
     return (
         <div class ="card"> 
-            <Header />
-            <Content />
+            <a href = "https://www.reactjs.org">
+                <Header />
+                <Content />
+            </a>
         </div>
     );
 }
