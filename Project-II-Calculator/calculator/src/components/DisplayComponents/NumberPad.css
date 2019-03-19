@@ -1,0 +1,73 @@
+.pad{ 
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    width: 171px;
+    color: black;
+    height: 233px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.action{
+    width: 100%;
+    height: 46px;
+    border-right: 1px solid grey; 
+    border-bottom: 1px solid grey;
+}
+
+.Button{
+    min-width: 56px;
+    margin-bottom: 0;
+    height: 45.7px;
+    background-color: white;
+    text-align: center;
+    border-right: 1px solid grey; 
+    border-bottom: 1px solid grey;
+}
+
+.Button:last-child{
+    width: 100%;
+}
+
+.Button:first-child{
+    width: 100%;
+}
+
+
+
+.Button:hover{
+    background-color: pink;
+}
+
+.Button:active{
+    background-color: rgb(252, 150, 167);
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.operations{
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.operation-button{
+    background-color: #A0001E;
+    width: 53px;
+    height: 45.7px;
+    border-right: 1px solid grey; 
+    border-bottom: 1px solid grey;
+    text-align: center;   
+}
+
+.operation-button:hover{
+    background-color: rgb(185, 0, 0);
+}
+
+.operation-button:active{
+    background-color: rgb(105, 0, 0);
+}

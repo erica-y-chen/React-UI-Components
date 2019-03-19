@@ -1,0 +1,16 @@
+.total {
+    background-color: black;
+    width: 226px;
+    margin: 0 auto;
+    height: 63px;
+    color: white;
+    text-align: right;
+    border-bottom: 1px solid grey;
+}
+
+h1{
+    font-weight: 1;
+    padding-top: 12px;
+    padding-right:10px;
+    font-size: 2rem;
+}
